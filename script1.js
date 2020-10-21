@@ -54,7 +54,7 @@ var title = $("<h3>").addClass("card-title").text(data.name + " (" + new Date().
 })
 }
 
-function getForecast(city) {
+/*function getForecast(city) {
     var queryURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + city + "&APPID=7e4c7478cc7ee1e11440bf55a8358ec3&units=imperial";
     $.ajax({
         url: queryURL,
@@ -62,7 +62,7 @@ function getForecast(city) {
     }).then(function(response) {
         var newrow = $("<div>").attr("class", "forecast");
         $("#earthforecast").append(newrow);
-    })
+    }) */
 
 }
     
